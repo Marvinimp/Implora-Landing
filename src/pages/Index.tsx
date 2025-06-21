@@ -11,9 +11,11 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-[#AF42AF] rounded-lg flex items-center justify-center">
-                <Brain className="w-6 h-6 text-white" />
-              </div>
+              <img 
+                src="/placeholder.svg" 
+                alt="Implora Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <span className="text-2xl font-bold text-gray-900">Implora</span>
             </div>
             <Button 
@@ -154,9 +156,11 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
-              <div className="w-8 h-8 bg-[#AF42AF] rounded-lg flex items-center justify-center">
-                <Brain className="w-5 h-5 text-white" />
-              </div>
+              <img 
+                src="/placeholder.svg" 
+                alt="Implora Logo" 
+                className="w-8 h-8 object-contain"
+              />
               <span className="text-xl font-bold">Implora</span>
             </div>
             <div className="text-center md:text-right">
