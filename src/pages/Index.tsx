@@ -175,16 +175,16 @@ const Index = () => {
               </p>
               <div className="mt-4 flex justify-center md:justify-end gap-6">
                 <a
-                  href="/impressum"
+                  href="/Impressum.html"
                   className="text-gray-400 hover:text-white underline transition-colors"
                 >
                   Impressum
                 </a>
                 <a
-                  href="/datenschutz"
+                  href="/Datenschutz.html"
                   className="text-gray-400 hover:text-white underline transition-colors"
                 >
-                  Datenschutzerklärung
+                  Datenschutz
                 </a>
               </div>
             </div>
