@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Users, Brain, ArrowRight, Factory, Wrench, HardHat } from "lucide-react";
@@ -12,17 +11,19 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img 
-                src="/placeholder.svg" 
+                src="/Implora_Logo.svg" 
                 alt="Implora Logo" 
                 className="w-10 h-10 object-contain"
               />
               <span className="text-2xl font-bold text-gray-900">Implora</span>
             </div>
-            <Button 
-              className="bg-[#AF42AF] hover:bg-[#9A3A9A] text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              Kontaktieren Sie uns
-            </Button>
+            <a href="mailto:kontakt@implora.de">
+              <Button 
+                className="bg-[#AF42AF] hover:bg-[#9A3A9A] text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl"
+              >
+                Kontaktieren Sie uns
+              </Button>
+            </a>
           </div>
         </div>
       </header>
@@ -40,13 +41,15 @@ const Index = () => {
               Wissen für Ihr Unternehmen. Professionelles Wissensmanagement für die Industrie.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button 
-                size="lg" 
-                className="bg-[#AF42AF] hover:bg-[#9A3A9A] text-white px-8 py-4 text-lg rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-              >
-                Kostenloses Beratungsgespräch
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <a href="mailto:kontakt@implora.de">
+                <Button 
+                  size="lg" 
+                  className="bg-[#AF42AF] hover:bg-[#9A3A9A] text-white px-8 py-4 text-lg rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                >
+                  Vereinbaren Sie einen Termin mit uns
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </a>
               <p className="text-sm text-gray-500">Unverbindlich • 30 Minuten • Sofort verfügbar</p>
             </div>
           </div>
@@ -138,15 +141,17 @@ const Index = () => {
             </h3>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Lassen Sie uns gemeinsam eine Lösung für Ihr Unternehmen entwickeln. 
-              Kostenlose Erstberatung, keine Verpflichtungen.
+              Unverbindlicher Austausch, keine Verpflichtungen.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-[#AF42AF] hover:bg-[#9A3A9A] text-white px-10 py-4 text-lg rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-            >
-              Kontaktieren Sie uns jetzt
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+            <a href="mailto:kontakt@implora.de">
+              <Button 
+                size="lg" 
+                className="bg-[#AF42AF] hover:bg-[#9A3A9A] text-white px-10 py-4 text-lg rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+              >
+                Kontaktieren Sie uns jetzt
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -157,8 +162,8 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
               <img 
-                src="/placeholder.svg" 
-                alt="Implora Logo" 
+                src="/Implora_Logo_white.svg" 
+                alt="Implora Logo white" 
                 className="w-8 h-8 object-contain"
               />
               <span className="text-xl font-bold">Implora</span>
@@ -166,8 +171,22 @@ const Index = () => {
             <div className="text-center md:text-right">
               <p className="text-gray-400 mb-2">Wissensmanagement für die deutsche Industrie</p>
               <p className="text-sm text-gray-500">
-                © 2024 Implora. Professionell. Sicher. Vertrauenswürdig.
+                © 2025 Implora. Professionell. Sicher. Vertrauenswürdig.
               </p>
+              <div className="mt-4 flex justify-center md:justify-end gap-6">
+                <a
+                  href="/impressum"
+                  className="text-gray-400 hover:text-white underline transition-colors"
+                >
+                  Impressum
+                </a>
+                <a
+                  href="/datenschutz"
+                  className="text-gray-400 hover:text-white underline transition-colors"
+                >
+                  Datenschutzerklärung
+                </a>
+              </div>
             </div>
           </div>
         </div>
