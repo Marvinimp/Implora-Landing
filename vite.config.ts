@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/Implora-Landing/',
+  base: mode === 'production' ? '/Implora-Landing/' : '/',
   server: {
     host: "::",
     port: 8080,
