@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Impressum - Implora</title>
+    
+    <!-- Tailwind CSS einbinden (über CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Optionale Anpassung: deine Markenfarbe (#AF42AF) als Primary Color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#AF42AF',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-gray-50 to-white text-gray-800 antialiased leading-relaxed">
+    
+    <div class="container mx-auto px-6 py-12 max-w-4xl">
+        
+        <!-- Haupt-Überschrift -->
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-10 text-center">
+            Impressum
+        </h1>
+        
+        <!-- Inhalt -->
+        <article class="prose prose-lg prose-primary max-w-none">
+            
+            <p>
+                Marvin Mews<br/>
+                Mierendorffstraße 2<br/>
+                48151 Münster
+            </p><br/>
+            
+
+            <p>
+                E-Mail: <a href="mailto:kontakt@implora.de" class="text-primary">kontakt@implora.de</a>
+            </p>
+            
+            <p class="mt-12 text-center text-sm text-gray-500">
+                Quelle: <a href="https://www.e-recht24.de" class="text-primary hover:underline">https://www.e-recht24.de</a>
+            </p>
+            
+        </article>
+    </div>
+</body>
+</html>
